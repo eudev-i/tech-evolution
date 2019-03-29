@@ -1,0 +1,499 @@
+@font-face {
+
+    font-family: roboto-thin;
+    src: url('../font/Roboto-Thin.ttf');
+
+}
+
+@font-face {
+
+    font-family: roboto-light;
+     src: url('../font/Roboto-Light.ttf');
+
+}
+
+@font-face {
+
+    font-family: comfortaa-light;
+     src: url('../font/Comfortaa-Light.ttf');
+
+}
+
+@font-face {
+
+    font-family: comfortaa-bold;
+     src: url('../font/Comfortaa-Bold.ttf');
+
+}
+
+body{
+    
+    padding: 0px;
+    margin: 0px;
+    background-color: #0a1628;
+    font-family: roboto-light;
+    color: #fff;
+    
+}
+
+a{
+    
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+.centralizarX{
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.centralizarY{
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+header{
+    
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #FFF;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#caixa_cabecalho{
+    
+    width: 1180px;
+    height: 100%;
+    
+}
+
+#logo{
+    
+    width: 351px;
+    height: 100%;
+    background-image: url(../img/logo.PNG);
+    background-size: 351px 100px;
+    background-repeat: no-repeat;
+    float: left;
+    
+}
+
+#menu_principal{
+    
+    height: 100%;
+    margin-left: 250px;
+    float: left;
+    
+}
+
+.itens_menu{
+    
+    height: 100%;
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+    
+}
+
+.itens_menu:hover{
+    
+    border-top: 3px solid #2271b0;
+    height: 93px;
+    color: #2271b0;
+    
+}
+
+#principal{
+    
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    
+}
+
+#inicio{
+    
+    width: 100%;
+    height: 470px;
+    background-image: url(../img/fundo_sobre.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#conteudo_inicio{
+    
+    width: 1000px;
+    height: 60%;
+    
+}
+
+#titulo_inicio{
+    
+    width: 600px;
+    margin-top: 50px;
+    
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+
+#texto_inicio{
+    
+    width: 600px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+#sobre{
+    
+    width: 100%;
+    height: 400px;
+    
+}
+
+#conteudo_sobre{
+    
+    width: 800px;
+    height: 90%;
+    
+}
+
+#titulo_sobre{
+    
+    width: 40%;
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+
+#texto_sobre{
+    
+    width: 60%;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+#solucoes{
+    
+    width: 100%;
+    height: 600px;
+    background-color: #2fb5f9;
+    background-image: url(../img/solucoes.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+#conteudo_solucoes{
+    
+    width: 800px;
+    height: 40%;  
+    
+}
+
+#caixa_solucoes{
+    
+    width: 90%;
+    height: 60%;
+    
+}
+
+#painel_solucoes{
+    
+    width: 400px;
+    height: auto;
+    
+}
+
+#titulo_solucoes{
+    
+    width: 40%;
+    font-weight: bold;
+    font-size: 35px;
+    
+    
+}
+
+#texto_solucoes{
+    
+    width: 60%;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.itens_solucoes{
+    
+    width: 200px;
+    height: 150px;
+    font-size: 15px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.mobile{
+    
+    background-image: url(../img/mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.lojas{
+    
+    background-image: url(../img/lojas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.gestao{
+    
+    background-image: url(../img/gestao.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.sistemas{
+    
+    background-image: url(../img/sistemas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#solucoes_mobile, #solucoes_gestao{
+    
+    width: 400px;
+    height: 130px;
+    margin-left: -380px;
+    text-align: justify;
+    
+}
+
+#solucoes_lojas_virtuais, #solucoes_sistemas{
+    
+    width: 400px;
+    height: 130px;
+    margin-left: 180px;
+    text-align: justify;
+    
+}
+
+#clientes{
+    
+    width: 100%;
+    height: 500px;
+    
+}
+
+
+#conteudo_clientes{
+    
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+    
+}
+
+#titulo_clientes{
+    
+    width: 100%;
+    font-weight: bold;
+    font-size: 35px;
+    color: #000;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+#painel_clientes{
+    
+    width: 900px;
+    height: 250px;
+    margin-top: 40px;
+    
+}
+
+.caixa_clientes{
+    
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    background-color: #fff;
+    float: left;
+    border: 3px solid #0a1628;
+    
+}
+
+.imagem_cliente{
+    
+    width: 150px;
+    height: 150px;
+    
+}
+
+#contato{
+    
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+    background-image: url(../img/contato.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#conteudo_contato{
+    
+    width: 600px;
+    height: 95%;
+    margin-top: 50px;
+    
+}
+
+#titulo_contato{
+    
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+#texto_contato{
+    
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+#formulario{
+    
+    width: 365px;
+    height: auto;
+    margin-top: 50px;
+    
+}
+
+*{
+    
+    padding: 0px;
+    margin: 0px;                
+    
+}
+
+fieldset {
+    border: 0;
+}
+
+input, select, textarea, button {
+    font-size: 1em;
+}
+
+.grupo:before, .grupo:after {
+    content: " ";
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #FFC;
+}
+
+.campo label.checkbox {
+    color: #000;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.botao {
+    font-size: 1.5em;
+    background: #fff;
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botao:hover {
+    background: #FB0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+
+footer{
+    
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#rodape{
+    
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
